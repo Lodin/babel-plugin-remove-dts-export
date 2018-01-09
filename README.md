@@ -1,4 +1,9 @@
 # babel-plugin-remove-dts-export
+[![Latest Stable Version](https://img.shields.io/npm/v/babel-plugin-remove-dts-export.svg)](https://www.npmjs.com/package/babel-plugin-remove-dts-export)
+[![License](https://img.shields.io/npm/l/babel-plugin-remove-dts-export.svg)](./LICENSE)
+[![Build Status](https://img.shields.io/travis/Lodin/babel-plugin-remove-dts-export/master.svg)](https://travis-ci.org/Lodin/babel-plugin-remove-dts-export)
+[![Test Coverage](https://img.shields.io/codecov/c/github/Lodin/babel-plugin-remove-dts-export/master.svg)](https://codecov.io/gh/Lodin/babel-plugin-remove-dts-export)
+
 For now official [Babel](https://github.com/babel/babel) typescript plugin has a
 [Babel#6065](https://github.com/babel/babel/issues/6065) issue that forbids re-exporting types from `d.ts` files. It
 can cause a lot of problems connected with using types from d.ts files freely. This plugin is designed to be a 
