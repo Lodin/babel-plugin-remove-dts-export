@@ -142,7 +142,7 @@ module.exports = function () {
           }
         },
         exit: function ExportDeclarationExit(path) {
-          if (path.node.specifiers.length === 0 && path.node.declaration === null) {
+          if (path.node.declaration === null && path.node.specifiers.length === 0) {
             path.remove();
           }
         }

@@ -38,6 +38,7 @@ describe('Babel plugin: transform imports', function () {
     it('should remove export declaration with only d.ts specifiers completely', createTest('removeWholeExport'));
     it('should not remove export declaration by default if import is not from d.ts file', createTest('notDts'));
     it('should remove export * from d.ts file', createTest('exportAll'));
+    it('should work properly with default export', createTest('exportDefault'));
   });
 
   describe('configuration', function () {
