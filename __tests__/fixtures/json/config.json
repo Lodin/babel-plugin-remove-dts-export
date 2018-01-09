@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    ["../../../index.js", {
+      "disableDefaultBehavior": true,
+      "specifiersBySource": {
+        "__tests__/fixtures/json/declaration.ts": ["AType"]
+      }
+    }]
+  ]
+}
