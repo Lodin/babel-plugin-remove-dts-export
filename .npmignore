@@ -1,0 +1,23 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+/__tests__
+
+#dev
+.editorconfig
+.gitignore
+.travis.yml
+jest.config.js
+package-lock.json
+
+# misc
+.idea
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

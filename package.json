@@ -1,0 +1,39 @@
+{
+  "name": "babel-plugin-remove-dts-export",
+  "version": "0.1.0",
+  "description": "Babel plugin for removing exports from d.ts files",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:single -- --watchAll",
+    "test:cover": "npm run test:single -- --coverage",
+    "test:single": "jest -c jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lodin/babel-plugin-remove-dts-export.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "exports",
+    "transform",
+    "customize",
+    "exporting",
+    "typescript",
+    "d.ts"
+  ],
+  "author": "Vlad Rindevich <rindevich.vs@gmail.com> (https://github.com/Lodin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lodin/babel-plugin-remove-dts-export/issues"
+  },
+  "homepage": "https://github.com/Lodin/babel-plugin-remove-dts-export#readme",
+  "dependencies": {
+    "@babel/types": "^7.0.0-beta.35"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.35",
+    "codecov": "^3.0.0",
+    "jest": "^21.2.1"
+  }
+}
